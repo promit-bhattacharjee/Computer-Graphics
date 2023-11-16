@@ -94,7 +94,4 @@ int main()
     line(a[0][0].value,a[0][1].value,a[1][0].value,a[1][1].value);
     getch();
     closegraph();
-
-
-
 }

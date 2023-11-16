@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 #include <graphics.h>
-
 using namespace std;
 
 int main()
@@ -11,7 +10,7 @@ int main()
     cout << "Enter Second points(x,y): ";
     cin >> x2 >> y2;
 
-    cout << "        x        " << "       y       " << endl;
+    cout << "\tx" << "\ty" << endl;
     int gd = DETECT, gm;
     initgraph(&gd, &gm, "");
 

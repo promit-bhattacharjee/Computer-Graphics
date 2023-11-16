@@ -15,7 +15,7 @@ int main()
     dy = y2-y1;
     x = x1;
     y = y1;
-    cout<<" x " << " y "<< " P "<<endl;
+    cout<<"\tx\t" << "y"<< "\tP "<<endl;
     while (x <x2)
     {
         putpixel(x+200,y+200,WHITE);
@@ -39,7 +39,7 @@ int main()
             y=y + 1;
         }
         x = x + 1;
-        cout <<" "<< x << "  " << y << "  " << p << endl;
+        cout <<"\t"<< x << "\t" << y << "\t" << p << endl;
     }
     getch();
     closegraph();
